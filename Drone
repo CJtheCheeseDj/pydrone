@@ -6,24 +6,52 @@ me.connect()
 
 #launch
 
-me.takeoff(120)
+me.takeoff()
+me.move_up(120)
 sleep(.5)
 
-me.move_forward(550)
-sleep(.5)
-me.flip_left()
-sleep(.5)
-me.rotate_counter_clockwise(90)
-sleep(.5)
+#move foward
+
+me.move_forward(500)
 me.move_forward(50)
 sleep(.5)
+
+#flip left
+
+me.flip_left()
+sleep(.5)
+
+#turn left
+
 me.rotate_counter_clockwise(90)
 sleep(.5)
-me.move_forward(600)
+
+#move foward
+
+me.move_forward(50)
 sleep(.5)
+
+#rotate left
+
 me.rotate_counter_clockwise(90)
 sleep(.5)
+
+#move foward
+
+me.move_forward(500)
+me.move_forward(100)
+sleep(.5)
+
+#rotate left
+
+me.rotate_counter_clockwise(90)
+sleep(.5)
+
+#move foward
+
 me.move_forward(250)
 sleep(.5)
+
+#land
 
 me.land()
